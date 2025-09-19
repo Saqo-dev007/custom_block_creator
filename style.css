@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: linear-gradient(135deg, #0b1020, #1e2a50, #3a4f8c);
+    color: #e8ecff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 50px;
+}
+
+.container {
+    background: linear-gradient(160deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .05));
+    padding: 30px 50px;
+    border-radius: 16px;
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.input {
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #aab3d0;
+}
+
+input,
+select {
+    width: 500px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, .2);
+    background: rgba(255, 255, 255, .05);
+    color: #fff;
+}
+
+option {
+    color: black;
+}
+
+.actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions button {
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(135deg, #6ea8ff, #9f7bff);
+    color: #fff;
+    font-weight: bold;
+}
+
+.images {
+    width: 100%;
+    position: relative;
+    min-height: 200px;
+    height: fit-content;
+    border: 1px solid white;
+    padding: 30px 10px;
+    background-color: white;
+    overflow-x: scroll;
+}
+
+.images button {
+    border: 0;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 20px;
+    background: none;
+    cursor: pointer;
+}
